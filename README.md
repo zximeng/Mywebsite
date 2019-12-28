@@ -9,6 +9,6 @@ Goals:
 
 Deadlines: 
 
-January 1st: A rough structure of the website with general css style. Including all sub-pages. 
-January 5th: A complete website with javascript up and running.
-January 8th: Working on the Rasperry Pi server. 
+  January 1st: A rough structure of the website with general css style. Including all sub-pages.   
+  January 5th: A complete website with javascript up and running.  
+  January 8th: Working on the Rasperry Pi server.   
