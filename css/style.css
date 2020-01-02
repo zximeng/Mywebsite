@@ -27,7 +27,7 @@ a {
   color: #66cccc;
 }
 .myimg {
-  text-align: center;
+  background-color: aliceblue;
 }
 .name {
   font-family: futura, sans-serif;
@@ -38,4 +38,9 @@ a {
 .des {
   text-align: left;
   color: #333333;
+}
+
+.footer {
+  background-color: #525252;
+  color: white;
 }
