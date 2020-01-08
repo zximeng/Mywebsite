@@ -1,0 +1,21 @@
+body {
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 50em;
+}
+table {
+  align-items: stretch;
+}
+.project {
+  position: relative, 0%;
+}
+.role {
+  position: relative, 25%;
+}
+.location {
+  position: relative, 50%;
+}
+.time {
+  position: relative, 100%;
+}
