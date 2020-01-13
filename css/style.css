@@ -2,7 +2,7 @@ body {
   background-color: #ffffff;
   text-align: center;
   margin: 0 auto;
-  max-width: 50em;
+  width: 70%;
 }
   #navbar {
 
@@ -10,7 +10,7 @@ body {
     position: fixed;
     top:0;
     left: 0;
-    width: 15em;
+    width: 15%;
     background-color: #;
   }
   nav ul {
