@@ -2,7 +2,29 @@ body {
   background-color: #ffffff;
   text-align: center;
   margin: 0 auto;
-  max-width: 50em;
+  max-width: 70%;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  background-color: #;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+hr {
+  border-color: gray;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 100%;
 }
 table {
   align-items: stretch;
@@ -18,4 +40,7 @@ table {
 }
 .time {
   position: relative, 100%;
+}
+a {
+  color: #66cccc;
 }

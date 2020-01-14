@@ -2,25 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Ximeng' Technical Experiences/title>
+    <title>Ximeng' Technical Experiences</title>
     <link rel="icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./css/Projects.css" />
   </head>
+  <nav id="navbar">
+    <ul>
+      <li><a href="http://ximengzhang.com/">About Me</a></li>
+      <br />
+      <br />
+
+      <li><a href="#edu-header">Education</a></li>
+      <br />
+      <br />
+      <li><a href="./work.html">Work Experiences</a></li>
+      <br />
+      <br />
+      <li><a href="./Projects.html">Projects</a></li>
+      <br />
+      <br />
+      <li><a href="#life-header"> My life</a></li>
+      <br />
+      <br />
+      <li><a href="#cat-header"> My cat</a></li>
+      <br />
+      <br />
+      <li><a href="#contact-header">Contact Me</a></li>
+      <br />
+      <br />
+    </ul>
+  </nav>
 
   <body>
     <h2>Technical Experiences</h2>
-    <table>
+    <table border="1">
       <tr>
-        <th class="project">
+        <th width="100">
           Project
         </th>
-        <th class="role">
+        <th width="70">
           Role
         </th>
-        <th class="location">
+        <th width="70">
           Location
         </th>
-        <th class="time">
+        <th width="70">
           Time
         </th>
       </tr>
@@ -39,21 +65,24 @@
           11/2019 – 12/2019
         </td>
       </tr>
-      <tfoot>
-        <ul>
-          <li>
-            Designed and Programmed a robot arm which can detect human proximity
-            using CTMU on PIC32 to do capacitive sensing.
-          </li>
-          <li>
-            Programmed 3 potentiometers to control three servo motors on the
-            robot arm.
-          </li>
-          <li>
-            Work independently on the web page development for the project.
-          </li>
-        </ul>
-      </tfoot>
+
+      <tr>
+        <td width="100">
+          <ul>
+            <li>
+              Designed and Programmed a robot arm which can detect human
+              proximity using CTMU on PIC32 to do capacitive sensing.
+            </li>
+            <li>
+              Programmed 3 potentiometers to control three servo motors on the
+              robot arm.
+            </li>
+            <li>
+              Work independently on the web page development for the project.
+            </li>
+          </ul>
+        </td>
+      </tr>
 
       <tr>
         <td>
@@ -69,20 +98,24 @@
           10/2019 – 11/2019
         </td>
       </tr>
-      <ul>
-        <li>
-          Programmed a hovering device with lift-motor which stopped at a
-          designated angle with PID control.
-        </li>
-        <li>
-          Programmed in ISR to do PID and with protothread to take serial
-          commands from PuTTY, output to LCD and DAC.
-        </li>
-        <li>
-          Tune the PID to gain the optimal response and set a button to
-          automatically go through a series of angles.
-        </li>
-      </ul>
+      <tr>
+        <td>
+          <ul>
+            <li>
+              Programmed a hovering device with lift-motor which stopped at a
+              designated angle with PID control.
+            </li>
+            <li>
+              Programmed in ISR to do PID and with protothread to take serial
+              commands from PuTTY, output to LCD and DAC.
+            </li>
+            <li>
+              Tune the PID to gain the optimal response and set a button to
+              automatically go through a series of angles.
+            </li>
+          </ul>
+        </td>
+      </tr>
       <tr>
         <td>
           TFT-LCD Bouncing Ball Game
@@ -97,20 +130,22 @@
           9/2019 – 10/2019
         </td>
       </tr>
-      <ul>
-        <li>
-          Programmed a game in which users got score from catching the bouncing
-          balls with an ADC controlled paddle.
-        </li>
-        <li>
-          Programmed the ball-ball and ball-wall collision algorithm to make
-          collisions looked real.
-        </li>
-        <li>
-          Optimized with fixed-point, macros, overclock and LUTs, so we had 350
-          balls on screen at 16 frame rates without jitter.
-        </li>
-      </ul>
+      <td>
+        <ul>
+          <li>
+            Programmed a game in which users got score from catching the
+            bouncing balls with an ADC controlled paddle.
+          </li>
+          <li>
+            Programmed the ball-ball and ball-wall collision algorithm to make
+            collisions looked real.
+          </li>
+          <li>
+            Optimized with fixed-point, macros, overclock and LUTs, so we had
+            350 balls on screen at 16 frame rates without jitter.
+          </li>
+        </ul>
+      </td>
       <tr>
         <td>
           Keypad Synthesizer
@@ -125,20 +160,22 @@
           8/2019 – 9/2019
         </td>
       </tr>
-      <ul>
-        <li>
-          Made a digital sound synthesizer which can take or record keypad
-          inputs and play corresponding notes or recorded sequence.
-        </li>
-        <li>
-          Programmed the notes with attack, sustain and decay time and made
-          notes ‘string like’ with FM.
-        </li>
-        <li>
-          Debounced the button with state machine and optimized the code with
-          look-up table.
-        </li>
-      </ul>
+      <td>
+        <ul>
+          <li>
+            Made a digital sound synthesizer which can take or record keypad
+            inputs and play corresponding notes or recorded sequence.
+          </li>
+          <li>
+            Programmed the notes with attack, sustain and decay time and made
+            notes ‘string like’ with FM.
+          </li>
+          <li>
+            Debounced the button with state machine and optimized the code with
+            look-up table.
+          </li>
+        </ul>
+      </td>
       <tr>
         <td>
           Smart Home System(Senior Design)
@@ -153,18 +190,21 @@
           1/2019 – 5/2019
         </td>
       </tr>
-      <ul>
-        <li>
-          Worked independently on the PCB and control circuit design, solder and
-          debug of our Smart Home boards supporting <br />functions such as
-          HVAC, LED lights, Water pump, Voice Control, Fingerprint sensor, etc.
-        </li>
-        <li>
-          Worked in team programming STM32F407 and Bluetooth module to interact
-          with our android app.
-        </li>
-        <li>Worked in team updating our project website.</li>
-      </ul>
+      <td>
+        <ul>
+          <li>
+            Worked independently on the PCB and control circuit design, solder
+            and debug of our Smart Home boards supporting <br />functions such
+            as HVAC, LED lights, Water pump, Voice Control, Fingerprint sensor,
+            etc.
+          </li>
+          <li>
+            Worked in team programming STM32F407 and Bluetooth module to
+            interact with our android app.
+          </li>
+          <li>Worked in team updating our project website.</li>
+        </ul>
+      </td>
       <tr>
         <td>
           Speedometer For Scooter
@@ -179,17 +219,19 @@
           8/2019 – 12/2019
         </td>
       </tr>
-      <ul>
-        <li>
-          Designed and soldered speedometer circuit with STM32F0, PCB
-          independently using hall- effect sensor.
-        </li>
-        <li>
-          Programmed the board independently for speed estimation algorithm
-          using C.
-        </li>
-        <li>Prototyped and tested the speedometer on the Bird scooter.</li>
-      </ul>
+      <td>
+        <ul>
+          <li>
+            Designed and soldered speedometer circuit with STM32F0, PCB
+            independently using hall- effect sensor.
+          </li>
+          <li>
+            Programmed the board independently for speed estimation algorithm
+            using C.
+          </li>
+          <li>Prototyped and tested the speedometer on the Bird scooter.</li>
+        </ul>
+      </td>
     </table>
   </body>
 </html>
