@@ -3,25 +3,23 @@ body {
   text-align: center;
   margin: 0 auto 100px auto;
   width: 70%;
-  line-height:2;
+  line-height: 2;
 }
-  #navbar {
-
-
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 15%;
-    background-color: #;
-  }
-  nav ul {
-    margin: 0px;
-    padding: 5px 0px 5px 30px;
-  }
-  nav li {
-    display: inline;
-    margin-right: 20px;
-  }
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  background-color: #;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
 hr {
   border-color: gray;
   border-style: none;
@@ -38,6 +36,30 @@ h2 {
 }
 h3 {
   color: #cc0066;
+}
+
+a {
+  color: #66cccc;
+}
+.myimg {
+  background-color: aliceblue;
+}
+.name {
+  font-family: futura, sans-serif;
+  text-align: center;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+.des {
+  text-align: left;
+  color: #333333;
+}
+
+.footer {
+  background-color: #525252;
+  color: white;
+}
+
 }
 
 a {
