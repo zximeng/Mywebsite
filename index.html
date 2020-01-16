@@ -1,90 +1,111 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="Ximeng Zhang's Personal Website">
-    <title>Ximeng' Personal Website</title>
-    <meta name="keywords" content="Ximeng Zhang,Purdue, Cornell, MEng, personal website, ECE ">
-    <meta name="author" content="Ximeng Zhang">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./favicon.ico">
-  </head>
 
-  <body text-align: center;>
-    <div class="myimg" >
-    <img
-      
-      src="./me.PNG"
-      alt="Ximeng at Toronto Christmas Market"
-      width="200"
-      height="200"
-    />
-    </div>
-    <nav id="navbar">
-      <ul>
-     <li><a href="http://ximengzhang.com/">About Me</a></li>
-        <br>
-        <br>
-        
-     <li><a href="#edu-header">Education</a></li>
-        <br>
-        <br>
-     <li><a href="./work.html">Work Experiences</a></li>
-     <br>
-      <br>
-     <li><a href="./Projects.html">Projects</a></li>
-     <br>
-      <br>
-     <li><a href="#life-header"> My life</a></li>
-     <br>
-        <br>
-     <li><a href="#cat-header"> My cat</a></li>
-     <br>
-        <br>
-     <li><a href="#contact-header">Contact Me</a></li>
-     <br>
-     <br>
-   </ul>
-   
- </nav>
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Ximeng Zhang's Personal Website">
+  <title>Ximeng' Personal Website</title>
+  <meta name="keywords" content="Ximeng Zhang,Purdue, Cornell, MEng, personal website, ECE ">
+  <meta name="author" content="Ximeng Zhang">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="icon" href="./favicon.ico">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
 
-    <h1 class="name">Ximeng Zhang （张希勐）</h1>
-    <h2 class="name">Hi! I am a M.Eng Student in ECE at Cornell University and Actively Looking for a job in Seattle area! </h2>
-<hr>
-<div class="des">
-        <p>
-    Hi! Welcome to my personal page. My name is Ximeng Zhang. You can call me Simon. I got my bachelor
-degree in ECE and a minor in Econ at Purdue. I am currently a Master of Engineering student in Cornell 
-University. 
-        </p>
-        <p>
-    Since I was in EE, I took classes like semiconductor, electrical motors, feedback 
-system, power electronics and so on. Starting in my Senior year, I found that I was really interested in 
-Embedded system design like IoT. I have done several embedded system design using different chips like 
-STM32, PIC32, ATmega328p, ESP8266, etc. I also really enjoy making my own PCB. So for my senior design,
-I made a smart home control system and designed our own boards. But I found that I should continue learning
-in this area to advance my skills. So I came to Cornell for my master degree. (My girlfriend lives in Toronto
-So I don't have to fly from Chicago everytime anymore.) 
-        </p>
-        <p>
-    In my master year, I continued to work on embedded system design. I took <a href="http://people.ece.cornell.edu/land/courses/ece4760/">ECE4760: Microcontroller</a> 
-taught by Captain Bruce Land and start working in<a href="https://www.hybridbody.human.cornell.edu/"> Hybrid Body Lab</a>supervised by professor Cindy Kao. I also took
-operating system and computer vision classes which I found very helpful. Please check out the details about
-me and my projects in the links below! 
-</p>
-<p>
-    My girlfriend accepted an offer from Microsoft at Seattle. So<strong><em> I am Actively Looking for a job in Seattle area!</em></strong></p>
-<p>  
-    We have a beatiful siamese cat called Tiffany, feel free to check out her pictures in the link!
+<body text-align: center;>
+  <!-- navigation bar -->
+  <div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Ximeng'site</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="http://ximengzhang.com/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./work.html">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./work.html">Work Experiences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./work.html">My life</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./work.html">My cat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./work.html">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- My image -->
+  <div class="myimg">
+    <img src="./me.PNG" alt="Ximeng at Toronto Christmas Market" width="200" height="200" />
+  </div>
+  <!-- my name -->
+  <h1 class="name">Ximeng Zhang （张希勐）</h1>
+  <h2 class="name">Hi! I am a M.Eng Student in ECE at Cornell University and Actively Looking for a job in Seattle area!
+  </h2>
+  <hr>
+  <!-- description -->
+  <div class="des">
+    <p>
+      Hi! Welcome to my personal page. My name is Ximeng Zhang. You can call me Simon. I got my bachelor
+      degree in ECE and a minor in Econ at Purdue. I am currently a Master of Engineering student in Cornell
+      University.
+    </p>
+    <p>
+      Since I was in EE, I took classes like semiconductor, electrical motors, feedback
+      system, power electronics and so on. Starting in my Senior year, I found that I was really interested in
+      Embedded system design like IoT. I have done several embedded system design using different chips like
+      STM32, PIC32, ATmega328p, ESP8266, etc. I also really enjoy making my own PCB. So for my senior design,
+      I made a smart home control system and designed our own boards. But I found that I should continue learning
+      in this area to advance my skills. So I came to Cornell for my master degree. (My girlfriend lives in Toronto
+      So I don't have to fly from Chicago everytime anymore.)
+    </p>
+    <p>
+      In my master year, I continued to work on embedded system design. I took <a
+        href="http://people.ece.cornell.edu/land/courses/ece4760/">ECE4760: Microcontroller</a>
+      taught by Captain Bruce Land and start working in<a href="https://www.hybridbody.human.cornell.edu/"> Hybrid Body
+        Lab</a>supervised by professor Cindy Kao. I also took
+      operating system and computer vision classes which I found very helpful. Please check out the details about
+      me and my projects in the links below!
+    </p>
+    <p>
+      My girlfriend accepted an offer from Microsoft at Seattle. So<strong><em> I am Actively Looking for a job in
+          Seattle area!</em></strong></p>
+    <p>
+      We have a beatiful siamese cat called Tiffany, feel free to check out her pictures in the link!
+    </p>
+  </div>
+  <hr>
+
   </p>
-</div>
-<hr>
+  <div class="footer">
+    <p> Last Modified By Ximeng Zhang. 1/14/2020</p>
 
-        </p>
-<div class="footer">
-  <p> Last Modified By Ximeng Zhang. 1/14/2020</p>
+  </div>
+</body>
 
-</div>
-  </body>
 </html>
-
