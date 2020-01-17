@@ -46,3 +46,9 @@ a {
   background-color: #525252;
   color: white;
 }
+.work-title {
+  margin-top: 5rem;
+}
+.container-fluid {
+  text-align: left;
+}
