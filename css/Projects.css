@@ -30,6 +30,22 @@ table {
 .time {
   position: relative, 100%;
 }
+h1 {
+  color: #ffcc00;
+  text-align: center;
+}
+h2 {
+  color: #ff6666;
+}
+h3 {
+  color: #cc0066;
+}
+
 a {
   color: #66cccc;
+}
+
+.footer {
+  background-color: #525252;
+  color: white;
 }
